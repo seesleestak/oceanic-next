@@ -1,6 +1,8 @@
 " ===============================================================
 " OceanicNext
 " Author: Mike Hartington
+" 
+" Forked to make some small modifications
 " ===============================================================
 
 " {{{ Setup
@@ -31,7 +33,7 @@
   let s:base02=['#4f5b66', '240']
   let s:base03=['#65737e', '243']
   let s:base04=['#a7adba', '145']
-  let s:base05=['#c0c5ce', '251']
+  let s:base05=['#dce0e8', '251']
   let s:base06=['#cdd3de', '252']
   let s:base07=['#d8dee9', '253']
   let s:base08=['#ec5f67', '203']
@@ -186,6 +188,14 @@ call <sid>hi('htmlTagName',                s:base07, '',       '',          '')
 call <sid>hi('javaScript',                 s:base05, '',       '',          '')
 call <sid>hi('javaScriptNumber',           s:base09, '',       '',          '')
 call <sid>hi('javaScriptBraces',           s:base05, '',       '',          '')
+
+" vim-javascript
+call <sid>hi('jsArrowFunction',            s:base0C, '',       '',          '')
+call <sid>hi('jsFunction',                 s:base0E, '',       '',          '')
+call <sid>hi('jsFuncCall',                 s:base0D, '',       '',          '')
+call <sid>hi('jsNoise',                    s:base0C, '',       '',          '')
+call <sid>hi('jsOperator',                 s:base0C, '',       '',          '')
+call <sid>hi('jsStorageClass',             s:base0E, '',       '',          '')
 
 call <sid>hi('markdownCode',               s:base0B, '',       '',          '')
 call <sid>hi('markdownCodeBlock',          s:base0B, '',       '',          '')
